@@ -16,9 +16,9 @@ app.use(express.json());
 app.use(express.urlencoded({extended:true}))
 
 
-// app.get('/testeGET', (req, res)=>{
-//    console.log('ROTA DE TESTE DE GET1!!');
-//    console.log('ROTA DE CONSOLE')
+//app.get('/testeGET', (req, res)=>{
+//console.log('ROTA DE TESTE DE GET1!!');
+//console.log('ROTA DE CONSOLE')
 //    res.send('TALVEZ O MUNDO NÃO SEJA PEQUENO, E NEM SEJA A VIDA UM FATO CONSUMADO');
 // });
 // app.post('/testePOST', (req, res)=>{
